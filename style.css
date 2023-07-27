@@ -4,8 +4,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
   justify-content: center;
+  height: 100vh;
   background: url("https://img.freepik.com/free-photo/cascade-boat-clean-china-natural-rural_1417-1356.jpg?w=1060&t=st=1690255200~exp=1690255800~hmac=0934883c28121708dee6b367c92d286301f3e7e9d9fabc1cd54596a68c0b6e45");
   background-repeat: no-repeat;
   background-size: cover;
@@ -84,4 +84,35 @@ h2 {
     height: 40px;
     margin: -45px 33px;
   }
+}
+
+nav {
+  background-color: #007bff;
+  padding: 10px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+a:hover {
+  background-color: #0056b3;
+  border-radius: 5px;
 }
